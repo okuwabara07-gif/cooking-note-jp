@@ -4,6 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: { default: '料理NOTE', template: '%s | 料理NOTE' },
   description: '毎日の料理が楽しくなるレシピとキッチングッズ情報を発信',
+  verification: { google: 'xpdiFRYHloMJxfhCT-IMD08p5na4v9WUqvPY9OrDsHs' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
