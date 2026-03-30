@@ -2,9 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 export const metadata: Metadata = {
   title: '料理NOTE | K-Beauty Portal',
-  description: '調理器具・キッチン用品の最新比較ランキング',
-  openGraph: { title: '料理NOTE', description: '調理器具・キッチン用品の最新比較ランキング', siteName: 'K-Beauty Portal', type: 'website' },
-  twitter: { card: 'summary_large_image', title: '料理NOTE', description: '調理器具・キッチン用品の最新比較ランキング', site: '@beauty_note_j' },
+  description: '料理の最新比較ランキング・口コミ・おすすめ商品',
+  twitter: { card: 'summary_large_image', site: '@beauty_note_j', creator: '@beauty_note_j' },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
