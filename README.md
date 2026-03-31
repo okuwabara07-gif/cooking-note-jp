@@ -1,2 +1,3 @@
 # cooking-note-jp
-料理NOTE
+
+Updated: 2026-04-01
